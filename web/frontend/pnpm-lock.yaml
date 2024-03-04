@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.1.0
     version: 3.1.0(react@18.2.0)
   '@shopify/app-bridge-utils':
-    specifier: ^3.1.0
-    version: 3.1.0
+    specifier: ^3.5.1
+    version: 3.5.1
   '@shopify/polaris':
     specifier: ^10.49.1
     version: 10.49.1(react-dom@18.2.0)(react@18.2.0)
@@ -737,6 +737,10 @@ packages:
     dev: false
     optional: true
 
+  /@shopify/app-bridge-core@1.1.1:
+    resolution: {integrity: sha512-kEnJUpkC9vDdmGMN3Mezq/FlDBqP+DFg/A1PFzqTW8FILu0wzFmz1aFk4Hxy6Y6ilceMmn8QXsyLA9DfaeH4jQ==}
+    dev: false
+
   /@shopify/app-bridge-react@3.1.0(react@18.2.0):
     resolution: {integrity: sha512-XoWgDncHjifmfeCRGNv7No8ez91q21I8+bIVbBW7D3SrmJqQZbCdR6Mx1IaZXqY83/jqpvck4TAV6w0GnGkHVw==}
     peerDependencies:
@@ -746,17 +750,25 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@shopify/app-bridge-utils@3.1.0:
-    resolution: {integrity: sha512-ZwZj7sV/oswgUJJO17lDDhRXTw3ff4bCvG+kRudH6qcFTHsM6NCLMkUNTJF6CVbpJFOFGJSMdVhScfHP1xKUPw==}
+  /@shopify/app-bridge-utils@3.5.1:
+    resolution: {integrity: sha512-VZRvRfg1nF/0/C7zIwYlQ2RXY2S7ALw04Lp6vXPkzBxggDYakx9Lbvc5/k7ZTvhwZv2q8+FVHh319IMW81b27Q==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
-      '@shopify/app-bridge': 3.1.0
+      '@shopify/app-bridge': 3.7.10
     dev: false
 
   /@shopify/app-bridge@3.1.0:
     resolution: {integrity: sha512-5I24jHP+7R5F3H/oVjUav8nwKWycGDjSgMC4NUV9mEnZoWw54kiKe3vWyyo8WEVItks88+/BoHeldZeftw+/CA==}
     dependencies:
       base64url: 3.0.1
+    dev: false
+
+  /@shopify/app-bridge@3.7.10:
+    resolution: {integrity: sha512-zy4c05DEOkYXm1yWIe0FrI0lq6hzffIT4JWzb9XKqY5OPRNHRHg+ihDt0ZnR8eMVmYV03yStpGAITIfqOgn4TQ==}
+    dependencies:
+      '@shopify/app-bridge-core': 1.1.1
+      base64url: 3.0.1
+      web-vitals: 3.5.2
     dev: false
 
   /@shopify/polaris-icons@6.16.0:
@@ -3193,6 +3205,10 @@ packages:
     dependencies:
       xml-name-validator: 5.0.0
     dev: true
+
+  /web-vitals@3.5.2:
+    resolution: {integrity: sha512-c0rhqNcHXRkY/ogGDJQxZ9Im9D19hDihbzSQJrsioex+KnFgmMzBiy57Z1EjkhX/+OjyBpclDCzz2ITtjokFmg==}
+    dev: false
 
   /webidl-conversions@7.0.0:
     resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
