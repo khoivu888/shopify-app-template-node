@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@shopify/shopify-api": "^9.0.2",
-    "@shopify/shopify-app-express": "^4.0.0",
+    "@shopify/shopify-app-express": "^4.1.2",
     "@shopify/shopify-app-session-storage-sqlite": "^2.0.4",
     "@shopify/shopify-app-session-storage-postgresql": "^3.0.1",
     "compression": "^1.7.4",
